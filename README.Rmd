@@ -9,22 +9,18 @@ knitr::opts_chunk$set(
   out.width = "100%"
 )
 ```
-
 # new.name
-An R package that uses the babynames and unisex datasets to help users choose new names using criteria having to do with the letters in the name (e.g., a beginning letter) and/or a year the name was used in the United States at least five times. More name sets to be added!
-
-
+An R package that uses the babynames and unisex datasets to help users choose new names using criteria having to do with the letters in the name (e.g., a beginning letter) and/or a year. You will be able to find names that were used in the United States at least five times. More name sets to be added!
 
 ## Purpose
-The new.name package includes functions and datasets to help people choose a new name. This package aims to use string manipulation and data wrangling to find subsets of names based on certain characteristics. 
+There are many reasons people may need a new name. Whether you are trans and looking for a name that better fits your gender identity; naming a new child, pet, company or feature; or even a new artificial intelligence entity, new.name can help! This package uses string manipulation and data wrangling to find subsets of names based on certain characteristics. 
 Perhaps you want to choose a new name that starts with certain letters or maybe you want something random. 
 
 
 ## Target
-This package is intended for anyone who needs help deciding a new name. 
+Though it was designed for trans people looking to pick a name popular in their birth year, new.name is also able to be uses anyone!
 
 ## Installation
-
 You can install the development version of new.name like so:
 
 ``` r
@@ -38,13 +34,14 @@ Find popular names during a year(y) that starts with a letter(x)
 ```{r}
 newNames("A",2000)
 ```
-
+"Alanni"    "Alezander" "Ashunti"
 ## Example 
 Find a random name
 
 ```{r random name}
 RandomName()
 ```
+Marlowe
 
 ## Project Proposal for part III
 

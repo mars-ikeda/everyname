@@ -1,4 +1,11 @@
 
+![](new_names_image.jpg)
+
+Photo by
+<a href="https://unsplash.com/@chuttersnap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">CHUTTERSNAP</a>
+on
+<a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 # new.name
 
 An R package that uses the babynames and unisex datasets to help users
@@ -33,7 +40,7 @@ Find popular names during a year(y) that starts with a letter(x)
 ``` r
 new_Names("A",2000)
 #> [[1]]
-#> [1] "Angelina" "Ashvin"   "Amery"
+#> [1] "Alin"   "Anjali" "Alesha"
 ```
 
 “Alanni” “Alezander” “Ashunti”
@@ -44,7 +51,7 @@ Find a random name
 
 ``` r
 RandomName()
-#> [1] "Drue"
+#> [1] "Oluwatomisin"
 ```
 
 Marlowe

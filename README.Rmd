@@ -36,6 +36,9 @@ Though it was designed for trans people looking to pick a name popular in their 
 You can install the development version of `new.name` like so:
 
 
+`devtools::install_github("mars-ikeda/new.name")`
+
+
 ## Example
 
 Find popular names during a year(y) that starts with a letter(x)

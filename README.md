@@ -33,6 +33,8 @@ in their birth year, `new.name` is also able to be used anyone!
 
 You can install the development version of `new.name` like so:
 
+`devtools::install_github("mars-ikeda/new.name")`
+
 ## Example
 
 Find popular names during a year(y) that starts with a letter(x)
@@ -40,7 +42,7 @@ Find popular names during a year(y) that starts with a letter(x)
 ``` r
 new_Names("A",2000)
 #> [[1]]
-#> [1] "Adriel" "Adore"  "Acie"
+#> [1] "Ailish"    "Aireanna"  "Annaleigh"
 ```
 
 ## Example
@@ -49,9 +51,13 @@ Find a random name
 
 ``` r
 RandomName()
-#> [1] "Mckinley"
+#> [1] "Milan"
 ```
 
 ## Project Proposal for part III
 
-Work on this same package but add….
+Work on this same package but add more string manipulation functions and
+data sets. Add data sets from movie characters so people can get name
+inspiration from fictional characters. Add data for names in other
+languages. Add functions to allow people to look up names of characters
+in different movies.

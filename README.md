@@ -20,7 +20,7 @@ starts with certain letters or maybe you want something random.
 ## Target
 
 Though it was designed for trans people looking to pick a name popular
-in their birth year, new.name is also able to be uses anyone!
+in their birth year, `new.name` is also able to be used anyone!
 
 ## Installation
 
@@ -33,7 +33,7 @@ Find popular names during a year(y) that starts with a letter(x)
 ``` r
 new_Names("A",2000)
 #> [[1]]
-#> [1] "Averi"  "Anaria" "Anthon"
+#> [1] "Angelina" "Ashvin"   "Amery"
 ```
 
 “Alanni” “Alezander” “Ashunti”
@@ -44,7 +44,7 @@ Find a random name
 
 ``` r
 RandomName()
-#> [1] "Amrit"
+#> [1] "Drue"
 ```
 
 Marlowe

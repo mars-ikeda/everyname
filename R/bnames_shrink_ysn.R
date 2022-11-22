@@ -8,7 +8,7 @@
 #' @export
 #' @import babynames dplyr stringr
 #' @examples
-#' newNames("Kay", 1880)
+#' new_Names("Kay", 1880)
 new_Names <- function(x,y) {
   target_a = "^" #to be combined with target_n for regEx in target_x
   target_n = substr(x,1,1) #targets first character of input name

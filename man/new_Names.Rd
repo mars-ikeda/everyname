@@ -20,5 +20,5 @@ New_Name: Returns three random baby names that are from a given year between 188
 and also start with the first letter of a user-inputted name.
 }
 \examples{
-newNames("Kay", 1880)
+new_Names("Kay", 1880)
 }

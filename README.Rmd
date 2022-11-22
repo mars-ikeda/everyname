@@ -57,4 +57,4 @@ Marlowe
 
 ## Project Proposal for part III
 
-Work on this same package but add....
+Work on this same package but add more string manipulation functions and data sets. Add data sets from movie characters so people can get name inspiration from fictional characters. Add data for names in other languages. Add functions to allow people to look up names of characters in different movies. 

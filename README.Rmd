@@ -1,6 +1,14 @@
 ---
 output: github_document
 ---
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
 # new.name
 An R package that uses the babynames and unisex datasets to help users choose new names using criteria having to do with the letters in the name (e.g., a beginning letter) and/or a year. You will be able to find names that were used in the United States at least five times. More name sets to be added!
 

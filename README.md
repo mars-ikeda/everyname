@@ -40,10 +40,8 @@ Find popular names during a year(y) that starts with a letter(x)
 ``` r
 new_Names("A",2000)
 #> [[1]]
-#> [1] "Alin"   "Anjali" "Alesha"
+#> [1] "Adriel" "Adore"  "Acie"
 ```
-
-“Alanni” “Alezander” “Ashunti”
 
 ## Example
 
@@ -51,10 +49,8 @@ Find a random name
 
 ``` r
 RandomName()
-#> [1] "Oluwatomisin"
+#> [1] "Mckinley"
 ```
-
-Marlowe
 
 ## Project Proposal for part III
 

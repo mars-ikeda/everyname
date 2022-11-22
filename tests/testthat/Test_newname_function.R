@@ -1,3 +1,5 @@
 test_that("Check  newName function", {
-  expect_equal(list(newNames("A",2000)),list("Angeline","Aleighsha","Adalis"))
+  for(i in new_Names("A",2000)){
+    expect_equal(c(substr(i,1,1)), c("A","A","A"))
+  }
 })

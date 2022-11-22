@@ -43,7 +43,6 @@ Find popular names during a year(y) that starts with a letter(x)
 ```{r}
 new_Names("A",2000)
 ```
-"Alanni"    "Alezander" "Ashunti"
 
 
 ## Example 
@@ -53,7 +52,6 @@ Find a random name
 ```{r random name}
 RandomName()
 ```
-Marlowe
 
 ## Project Proposal for part III
 

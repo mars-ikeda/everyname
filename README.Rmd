@@ -21,11 +21,8 @@ Perhaps you want to choose a new name that starts with certain letters or maybe 
 Though it was designed for trans people looking to pick a name popular in their birth year, new.name is also able to be uses anyone!
 
 ## Installation
-You can install the development version of new.name like so:
 
-``` r
-devtools::install_github("mars-ikeda/new.name")
-```
+You can install the development version of `new.name` like so:
 
 ## Example
 

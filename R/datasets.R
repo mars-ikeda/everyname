@@ -16,3 +16,39 @@
 #' }
 #' @source <https://data.world/fivethirtyeight/unisex-names>
 "unisex"
+
+#' Spanish Female Names
+#'
+#' Data that contains 24746 Spanish first names given to current
+#'  female Spanish residents and newborns birthed in the past
+#'  15 years. Cleaned by jvalhondo on github.
+#'
+#' @format ## `spanish_female`
+#' A data frame with 24756 rows and 3 columns:
+#' \describe{
+#'   \item{name}{name}
+#'   \item{frequency}{frequency}
+#'   \item{mean_age}{mean age}
+#'   ...
+#' }
+#' @source <http://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177009&menu=resultados&secc=1254736195454&idp=1254734710990>
+#' @source <https://github.com/jvalhondo/spanish-names-surnames>
+"spanish_female"
+
+#' Spanish Male Names
+#'
+#' Data that contains 24584 Spanish first names given to current
+#'  male Spanish residents and newborns birthed in the past
+#'  15 years. Cleaned by jvalhondo on github.
+#'
+#' @format ## `spanish_male`
+#' A data frame with 24584 rows and 3 columns:
+#' \describe{
+#'   \item{name}{name}
+#'   \item{frequency}{frequency}
+#'   \item{mean_age}{mean age}
+#'   ...
+#' }
+#' @source <http://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177009&menu=resultados&secc=1254736195454&idp=1254734710990>
+#' @source <https://github.com/jvalhondo/spanish-names-surnames>
+"spanish_male"

@@ -5,3 +5,4 @@
 ^cran-comments\.md$
 ^data-raw$
 ^new_names_image.jpg$
+^\.github$

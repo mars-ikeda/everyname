@@ -13,3 +13,6 @@ spanish_male<- read_csv("data-raw/spanish_male")%>%
   clean_names()
 usethis::use_data(spanish_male, overwrite = TRUE)
 
+# movie_credits<- read_csv("data-raw/movie_credits.csv", header = TRUE, skip = 20000)%>%
+#   clean_names()
+# usethis::use_data(movie_credits, overwrite = TRUE)

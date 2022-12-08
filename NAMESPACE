@@ -2,6 +2,7 @@
 
 export(RandomName)
 export(new_Names)
+export(uppercase_input)
 import(babynames)
 import(dplyr)
 import(stringr)

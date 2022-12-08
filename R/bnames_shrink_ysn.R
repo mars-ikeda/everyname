@@ -11,7 +11,7 @@
 #' new_Names("Kay", 1880)
 new_Names <- function(x,y) {
   target_a = "^" #to be combined with target_n for regEx in target_x
-  target_n = substr(x,1,1) #targets first character of input name
+  target_n = toupper(substr(x,1,1)) #targets first character of input name and makes uppercase
   target_x = paste(target_a, target_n, sep = "")
   names <- babynames |>
     select(name, year) |>

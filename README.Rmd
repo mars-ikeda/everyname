@@ -20,7 +20,7 @@ Photo by <a href="https://unsplash.com/@chuttersnap?utm_source=unsplash&utm_medi
 [![R-CMD-check](https://github.com/mars-ikeda/new.name/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/mars-ikeda/new.name/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-An R package that uses the `babynames` and `unisex` datasets to help users choose new names using criteria having to do with the letters in the name (e.g., a beginning letter) and/or a year. You will be able to find names that were used in the United States at least five times during that year if you specify a year. More name sets to be added!
+An R package that uses the `babynames`, `unisex`, `spanish_female`, `spanish_male`, and `celeb` data sets to help users choose new names using criteria having to do with the letters in the name (e.g., a beginning letter) and/or a year. You will be able to find names that were used in the United States at least five times during that year if you specify a year. More name sets to be added!
 
 Contains two datasets:
 

@@ -8,11 +8,17 @@ on
 
 # new.name
 
-An R package that uses the `babynames` and `unisex` datasets to help
-users choose new names using criteria having to do with the letters in
-the name (e.g., a beginning letter) and/or a year. You will be able to
-find names that were used in the United States at least five times
-during that year if you specify a year. More name sets to be added!
+<!-- badges: start -->
+
+[![R-CMD-check](https://github.com/mars-ikeda/new.name/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/mars-ikeda/new.name/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
+
+An R package that uses the `babynames`, `unisex`, `spanish_female`,
+`spanish_male`, and `celeb` data sets to help users choose new names
+using criteria having to do with the letters in the name (e.g., a
+beginning letter) and/or a year. You will be able to find names that
+were used in the United States at least five times during that year if
+you specify a year. More name sets to be added!
 
 Contains two datasets:
 
@@ -29,7 +35,7 @@ starts with certain letters or maybe you want something random.
 ## Target
 
 Though it was designed for trans people looking to pick a name popular
-in their birth year, `new.name` is also able to be used anyone!
+in their birth year, `new.name` is also able to be used for anyone!
 
 ## Installation
 
@@ -44,7 +50,7 @@ Find popular names during a year(y) that starts with a letter(x)
 ``` r
 new_Names("A",2000)
 #> [[1]]
-#> [1] "Amit"    "Alyzae"  "Avishai"
+#> [1] "Aracelly" "Azaan"    "Aniqa"
 ```
 
 ## Example
@@ -53,7 +59,7 @@ Find a random name
 
 ``` r
 RandomName()
-#> [1] "Ying"
+#> [1] "Shaya"
 ```
 
 ## Project Proposal for part III

@@ -17,3 +17,34 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(new.name)
 ```
+
+## Welcome to the new.name package.
+The `new.name` package has functions and data sets that are included for their use in finding names. It also loads a variety of other packages when installed. Finding 
+
+There are many reasons people may need a new name. Whether you are trans and looking for a name that better fits your gender identity; naming a new child, pet, company or feature; or even a new artificial intelligence entity, new.name can help! This package uses string manipulation and data wrangling to find subsets of names based on certain characteristics. 
+Perhaps you want to choose a new name that starts with certain letters or maybe you want something random. 
+
+**install new.name like so:**
+
+`devtools::install_github("mars-ikeda/new.name")`
+
+
+One of of the biggest tools in the new.name package is the `new_Names()` function. This function allows a user to find popular names during a year(y) that starts with a letter(x).
+
+```{r}
+new_Names("A",2000)
+```
+
+
+If you want to find a random name use the function `RandonName()`
+
+```{r random name}
+RandomName()
+```
+
+If you arent interested in these functions and want to explore on your own, the new.name package includes a variety of data sets containing data about names. 
+
+This package includes the `babynames`, `unisex`, `spanish_female`, `spanish_male`, and `celeb_infor_csv` data sets. 
+
+
+The `babynames` data is a commonly known data set first introduced to github by hadley wickam. This 

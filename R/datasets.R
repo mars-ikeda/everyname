@@ -53,4 +53,21 @@
 #' @source <https://github.com/jvalhondo/spanish-names-surnames>
 "spanish_male"
 
+#' Celeb Names
+#'
+#' Data that contains 4557 celebrity names, occupations, roles etc.
+#'
+#' @format ## `celeb`
+#' A data frame with 4557 rows and 5 columns:
+#' \describe{
+#'   \item{name}{name}
+#'   \item{catagory}{occupation}
+#'   \item{image}{url link to an image of this celebrity}
+#'   \item{well_known_movie}{What movie the celeb is known for}
+#'   \item{bio}{Description of the life of the celebrity}
+#'
+#'   ...
+#' }
+#' @source <https://www.kaggle.com/code/rishabhdhyani4/celebrity/data>
+"celeb"
 

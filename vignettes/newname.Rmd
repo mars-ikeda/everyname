@@ -41,7 +41,7 @@ RandomName()
 
 If you arent interested in these functions and want to explore on your own, the new.name package includes a variety of data sets containing data about names. 
 
-This package includes the `babynames`, `unisex`, `spanish_female`, `spanish_male`, and `celeb_infor_csv` data sets. 
+This package includes the `babynames`, `unisex`, `spanish_female`, `spanish_male`, and `celeb` data sets. 
 
 
 The `babynames` data is a commonly known data set first introduced to github by hadley wickham and included in the tidyverse dependency. 
@@ -69,4 +69,9 @@ head(spanish_male)
 ```
 
 
-The `celeb_infor_csv` 
+The `celeb` data contains 4557 celebrity names, occupations, roles etc.
+
+```{r}
+head(celeb)
+```
+

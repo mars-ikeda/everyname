@@ -24,7 +24,7 @@ The `new.name` package has functions and data sets that are included for their u
 There are many reasons people may need a new name. Whether you are trans and looking for a name that better fits your gender identity; naming a new child, pet, company or feature; or even a new artificial intelligence entity, new.name can help! This package uses string manipulation and data wrangling to find subsets of names based on certain characteristics. 
 Perhaps you want to choose a new name that starts with certain letters or maybe you want something random. 
 
-
+Though it was designed for trans people looking to pick a name popular in their birth year, `new.name` is also able to be used for anyone!
 
 One of of the biggest tools in the new.name package is the `new_Names()` function. This function allows a user to find popular names during a year(y) that starts with a letter(x).
 

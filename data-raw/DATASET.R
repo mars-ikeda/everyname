@@ -13,13 +13,19 @@ spanish_male<- read_csv("data-raw/spanish_male")%>%
   clean_names()
 usethis::use_data(spanish_male, overwrite = TRUE)
 
-# movie_credits<- read_csv("data-raw/movie_credits.csv", header = TRUE, skip = 20000)%>%
-#   clean_names()
-# usethis::use_data(movie_credits, overwrite = TRUE)
-
-#related_names<- read.table("data-raw/btn_givennames_synonyms.txt", header = TRUE, sep = " ")
-
 celeb<- read_csv("data-raw/celeb_info_csv.csv")%>%
   clean_names()
    usethis::use_data(celeb, overwrite = TRUE)
+
+names_unisex<- unisex%>%
+     select(name)
+names_babynames<- babynames%>%
+     select(name)
+   # using anti_join to avoid duplicates
+names<- anti_join(names_babynames, names_unisex, by="name")
+
+spanish_names<- anti_join(spanish_female,spanish_male, by = "name")
+
+allNames<- anti_join(names,spanish_names, by = "name")
+
 

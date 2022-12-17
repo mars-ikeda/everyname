@@ -39,7 +39,7 @@ in their birth year, `new.name` is also able to be used for anyone!
 
 ## Installation
 
-You can install the development version of `every_name` like so:
+You can install the development version of `everyname` like so:
 
 `devtools::install_github("mars-ikeda/everyname")`
 
@@ -50,7 +50,7 @@ Find popular names during a year(y) that starts with a letter(x)
 ``` r
 every_name("A",2000)
 #> [[1]]
-#> [1] "Armonte"  "Angellee" "Albino"
+#> [1] "Ahmed" "Abrar" "Alyx"
 ```
 
 ## Example
@@ -59,7 +59,7 @@ Find a random name
 
 ``` r
 RandomName()
-#> [1] "Deundra"
+#> [1] "Ronit"
 ```
 
 ## Project Proposal for part III

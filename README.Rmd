@@ -37,7 +37,7 @@ Though it was designed for trans people looking to pick a name popular in their 
 
 ## Installation
 
-You can install the development version of `every_name` like so:
+You can install the development version of `everyname` like so:
 
 
 `devtools::install_github("mars-ikeda/everyname")`

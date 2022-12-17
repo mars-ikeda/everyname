@@ -6,7 +6,7 @@ Photo by
 on
 <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
-# new.name
+# everyname
 
 <!-- badges: start -->
 
@@ -20,7 +20,7 @@ beginning letter) and/or a year. You will be able to find names that
 were used in the United States at least five times during that year if
 you specify a year. More name sets to be added!
 
-Contains two datasets:
+Contains two data sets:
 
 ## Purpose
 
@@ -41,16 +41,16 @@ in their birth year, `new.name` is also able to be used for anyone!
 
 You can install the development version of `new.name` like so:
 
-`devtools::install_github("mars-ikeda/new.name")`
+`devtools::install_github("mars-ikeda/everyname")`
 
 ## Example
 
 Find popular names during a year(y) that starts with a letter(x)
 
 ``` r
-new_Names("A",2000)
+every_name("A",2000)
 #> [[1]]
-#> [1] "Aracelly" "Azaan"    "Aniqa"
+#> [1] "Audric" "Ardit"  "Allya"
 ```
 
 ## Example
@@ -59,7 +59,7 @@ Find a random name
 
 ``` r
 RandomName()
-#> [1] "Shaya"
+#> [1] "Ricci"
 ```
 
 ## Project Proposal for part III

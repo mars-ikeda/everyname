@@ -1,5 +1,5 @@
 ---
-title: "newname"
+title: "everyname"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{newname}
@@ -33,13 +33,13 @@ every_name("A",2000)
 ```
 
 
-If you want to find a random name use the function `RandonName()`
+If you want to find a random name use the function `RandomName()`
 
 ```{r random name}
 RandomName()
 ```
 
-If you arent interested in these functions and want to explore on your own, the new.name package includes a variety of data sets containing data about names. 
+If you aren't interested in these functions and want to explore on your own, the new.name package includes a variety of data sets containing data about names. 
 
 This package includes the `babynames`, `unisex`, `spanish_female`, `spanish_male`, and `celeb` data sets. 
 

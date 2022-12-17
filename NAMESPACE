@@ -3,7 +3,7 @@
 export(RandomName)
 export(check_year_numeric)
 export(check_year_range)
-export(new_Names)
+export(every_name)
 export(uppercase_input)
 import(babynames)
 import(dplyr)

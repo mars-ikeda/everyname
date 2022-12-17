@@ -1,4 +1,4 @@
-Package: new.name
+Package: everyname
 Title: Find A New Name Using String Manipulation
 Version: 0.0.0.9000
 Authors@R: c(

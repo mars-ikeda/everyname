@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/reference/test_package.html#special-files
 
 library(testthat)
-library(new.name)
+library(everyname)
 
-test_check("new.name")
+test_check("everyname")

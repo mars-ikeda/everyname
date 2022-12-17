@@ -1,4 +1,4 @@
-library(new.name)
+library(everyname)
 library(testthat)
 
 test_that("Check number of rows of unisex", {

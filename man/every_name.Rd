@@ -2,7 +2,7 @@
 % Please edit documentation in R/bnames_shrink_ysn.R
 \name{every_name}
 \alias{every_name}
-\title{New_Name: Returns three random baby names that are from a given year between 1880-2021
+\title{every_name: Returns three random baby names that are from a given year between 1880-2021
 and also start with the first letter of a user-inputted name.}
 \usage{
 every_name(x, y)
@@ -16,7 +16,7 @@ every_name(x, y)
 list
 }
 \description{
-New_Name: Returns three random baby names that are from a given year between 1880-2021
+every_name: Returns three random baby names that are from a given year between 1880-2021
 and also start with the first letter of a user-inputted name.
 }
 \examples{

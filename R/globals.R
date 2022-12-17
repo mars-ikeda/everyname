@@ -1,1 +1,1 @@
-utils::globalVariables(c("unisex", "babynames", "name","year"))
+utils::globalVariables(c("unisex", "babynames", "name","year","celeb","well_known_movie"))

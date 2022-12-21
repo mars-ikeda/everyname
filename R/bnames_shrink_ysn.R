@@ -14,6 +14,7 @@ every_name <- function(x,y) {
   target_a = "^" #to be combined with target_n for regEx in target_x
   target_n = substr(x1,1,1) #targets first character of input name
   target_x = paste(target_a, target_n, sep = "")
+  check_empty(x)
   check_year_numeric(y)
   check_year_range(y)
   names <- babynames |>

@@ -39,6 +39,12 @@ If you want to find a random name use the function `RandomName()`
 RandomName()
 ```
 
+To find celebrity names use the function `celeb_name()`
+
+```{r}
+celeb_name("Slumdog Millionaire")
+```
+
 If you aren't interested in these functions and want to explore on your own, the new.name package includes a variety of data sets containing data about names. 
 
 This package includes the `babynames`, `unisex`, `spanish_female`, `spanish_male`, and `celeb` data sets. 
